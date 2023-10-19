@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.3](https://github.com/adamhari/release-please/compare/v1.3.2...v1.3.3) (2023-10-19)
+
+
+### Bug Fixes
+
+* **ci:** install npm deps ([8e436c0](https://github.com/adamhari/release-please/commit/8e436c0f712d4477f7c86a66ec915399219e97a2))
+* **ci:** tweak dcarbone/install-jq-action version ([deb3a79](https://github.com/adamhari/release-please/commit/deb3a79f0a2077e051bd40532f866de9db52f531))
+
 ## [1.3.2](https://github.com/adamhari/release-please/compare/v1.3.1...v1.3.2) (2023-10-19)
 
 
