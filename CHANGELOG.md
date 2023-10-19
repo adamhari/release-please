@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.5.0](https://github.com/adamhari/release-please/compare/v1.4.2...v1.5.0) (2023-10-19)
+
+
+### Features
+
+* **App:** make it blue! ([74f9057](https://github.com/adamhari/release-please/commit/74f9057fd635a7265379a184d53d3f6a889cc186))
+* **App:** make it green! ([1a41ef3](https://github.com/adamhari/release-please/commit/1a41ef39baecee412e9713c549da0c31c4c7e960))
+
+
+### Bug Fixes
+
+* **ci:** don't increment-build-number on tag ([1272d80](https://github.com/adamhari/release-please/commit/1272d80e28d53b5f56d83e147fe873cced5bc5b7))
+
 ## [1.4.2](https://github.com/adamhari/release-please/compare/v1.4.1...v1.4.2) (2023-10-19)
 
 
