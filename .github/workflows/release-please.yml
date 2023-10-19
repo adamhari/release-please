@@ -14,7 +14,46 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
           token: ${{ secrets.GH_ACCESS_TOKEN }}
           release-type: node
           package-name: release-please
+
+      - uses: actions/checkout@v2
+        if: ${{ steps.release.outputs.release_created }}
+
+      - name: 'Setup jq'
+        if: ${{ steps.release.outputs.release_created }}
+        uses: dcarbone/install-jq-action@v2.0.2
+        with:
+          version: '1.7'
+
+      - name: Update Build Number
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          # Increment the buildNumber property in package.json
+          jq '.buildNumber += 1' package.json > package.json.tmp
+          mv package.json.tmp package.json
+
+      - name: Install NPM dependencies
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm ci
+
+      - name: Prebuild
+        if: ${{ steps.release.outputs.release_created }}
+        run: npx expo prebuild --no-install
+
+      - name: Commit changes
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add --all
+          git commit -m "chore: increment buildNumber and prebuild"
+
+      - name: Push changes
+        if: ${{ steps.release.outputs.release_created }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GH_ACCESS_TOKEN }}
