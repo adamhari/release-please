@@ -17,6 +17,8 @@ jobs:
 
       - name: 'Setup jq'
         uses: dcarbone/install-jq-action@v2
+        with:
+          version: '1.7'
 
       - name: Update Build Number
         run: |
