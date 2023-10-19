@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/adamhari/release-please/compare/v1.3.0...v1.3.1) (2023-10-19)
+
+
+### Bug Fixes
+
+* **ci:** use github-push-action@master ([93fb2f0](https://github.com/adamhari/release-please/commit/93fb2f08eb89c194bac142fc00d1761f0adadb75))
+* **ci:** use scoped access token in prebuild action ([957f5f1](https://github.com/adamhari/release-please/commit/957f5f1bd7bad3623e8d41ed3032d3326c5816d0))
+
 ## [1.3.0](https://github.com/adamhari/release-please/compare/v1.2.0...v1.3.0) (2023-10-19)
 
 
