@@ -1,0 +1,40 @@
+name: Increment Build Number and Prebuild Release Branch
+
+on:
+  create:
+    branches:
+      - "release-please*" # Use the appropriate branch name pattern
+
+jobs:
+  increment-build-number:
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out the triggering branch
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.ref }}
+
+      - name: Install jq
+        run: sudo apt-get -y install jq
+
+      - name: Update Build Number
+        run: |
+          # Increment the buildNumber property in package.json
+          jq '.buildNumber += 1' package.json > package.json.tmp
+          mv package.json.tmp package.json
+
+      - name: Prebuild
+        run: npx expo prebuild
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add --all
+          git commit -m "chore: increment buildNumber and prebuild"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
