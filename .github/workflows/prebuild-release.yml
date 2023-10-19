@@ -15,8 +15,8 @@ jobs:
         with:
           ref: ${{ github.event.ref }}
 
-      - name: Install jq
-        run: sudo apt-get -y install jq
+      - name: 'Setup jq'
+        uses: dcarbone/install-jq-action@v2
 
       - name: Update Build Number
         run: |
