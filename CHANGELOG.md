@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.4](https://github.com/adamhari/release-please/compare/v1.3.3...v1.3.4) (2023-10-19)
+
+
+### Bug Fixes
+
+* **ci:** prebuild --no-install ([0e5d0be](https://github.com/adamhari/release-please/commit/0e5d0bed55c1e5ce7e23abbd91fed08560c1dc80))
+
 ## [1.3.3](https://github.com/adamhari/release-please/compare/v1.3.2...v1.3.3) (2023-10-19)
 
 
