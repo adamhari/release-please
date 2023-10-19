@@ -1,7 +1,7 @@
 on:
   create:
     branches:
-      - 'release-please*' # This uses a wildcard to match branch names that start with 'release-please'
+      - 'release-please*'
 
 permissions:
   contents: write
@@ -23,9 +23,8 @@ jobs:
         with:
           version: '1.7'
 
-      - name: Update Build Number
+      - name: Increment build number
         run: |
-          # Increment the buildNumber property in package.json
           jq '.buildNumber += 1' package.json > package.json.tmp
           mv package.json.tmp package.json
 
@@ -40,7 +39,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add --all
-          git commit -m "chore: increment buildNumber and prebuild"
+          git commit -m "chore: increment build number and expo prebuild"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
