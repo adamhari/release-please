@@ -20,32 +20,40 @@ jobs:
           release-type: node
           package-name: release-please
 
+      - name: 'Get new branch name'
+        if: ${{ steps.release.outputs.pr }}
+        run: |
+          PR="$(echo "${{ steps.release.outputs.pr }}")"
+          HEAD_BRANCH_NAME=$(echo "PR" | jq -r '.headBranchName')
+          echo "CHECKOUT_BRANCH=$HEAD_BRANCH_NAME" >> "$GITHUB_OUTPUT"
+          echo $GITHUB_OUTPUT
+
       - uses: actions/checkout@v2
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.pr }}
 
       - name: 'Setup jq'
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.pr }}
         uses: dcarbone/install-jq-action@v2.0.2
         with:
           version: '1.7'
 
       - name: Update Build Number
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.pr }}
         run: |
           # Increment the buildNumber property in package.json
           jq '.buildNumber += 1' package.json > package.json.tmp
           mv package.json.tmp package.json
 
       - name: Install NPM dependencies
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.pr }}
         run: npm ci
 
       - name: Prebuild
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.pr }}
         run: npx expo prebuild --no-install
 
       - name: Commit changes
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.pr }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
@@ -53,7 +61,7 @@ jobs:
           git commit -m "chore: increment buildNumber and prebuild"
 
       - name: Push changes
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.pr }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_ACCESS_TOKEN }}
