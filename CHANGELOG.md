@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/adamhari/release-please/compare/v1.3.1...v1.3.2) (2023-10-19)
+
+
+### Bug Fixes
+
+* **ci:** specify version in dcarbone/install-jq-action ([cc4e944](https://github.com/adamhari/release-please/commit/cc4e944515ca4e0b26ddf3b60f168d94eee4c5c4))
+* **ci:** use dcarbone/install-jq-action ([386592a](https://github.com/adamhari/release-please/commit/386592a17d1dadd0680316be3683df0a084c4b97))
+
 ## [1.3.1](https://github.com/adamhari/release-please/compare/v1.3.0...v1.3.1) (2023-10-19)
 
 
