@@ -28,6 +28,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   web: {
+    name: "Release Please",
+    shortName: "Release Please",
+    description: "A sandbox for experimenting with release-please",
     favicon: "./assets/favicon.png",
     bundler: "metro",
   },
