@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.2](https://github.com/adamhari/release-please/compare/v1.4.1...v1.4.2) (2023-10-19)
+
+
+### Bug Fixes
+
+* **ci:** checkout branch from PR ([aedc95d](https://github.com/adamhari/release-please/commit/aedc95dfd2c6d4bf0a22aae2913af32a6b21872b))
+* **ci:** iterate on parse pr ([4df4f93](https://github.com/adamhari/release-please/commit/4df4f9340b5982d423d6f7cd7a967d5410ca6fe5))
+* **ci:** iterate on parse pr ([52ac29d](https://github.com/adamhari/release-please/commit/52ac29d599671bdfa407e784932875cb792310dc))
+* **ci:** iterate on parse pr ([5c7044d](https://github.com/adamhari/release-please/commit/5c7044d9d5ff6a3346a609839ff9d69d09fd4e1e))
+* **ci:** iterate on parse pr ([5323238](https://github.com/adamhari/release-please/commit/53232380b04b6235abac420a76f272afe7684f9e))
+* **ci:** push to release_please_branch ([ae45851](https://github.com/adamhari/release-please/commit/ae45851791d672a5966dcf28aab383860a8abc77))
+* **ci:** syntax ([dafdcb2](https://github.com/adamhari/release-please/commit/dafdcb2acdd7c4fb7238bdb757eb467ebcd8995d))
+
 ## [1.4.1](https://github.com/adamhari/release-please/compare/v1.4.0...v1.4.1) (2023-10-19)
 
 
