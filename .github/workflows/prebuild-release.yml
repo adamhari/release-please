@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       - name: Prebuild
-        run: npx expo prebuild
+        run: npx expo prebuild --no-install
 
       - name: Commit changes
         run: |
