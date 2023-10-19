@@ -20,16 +20,19 @@ jobs:
           release-type: node
           package-name: release-please
 
-      - name: 'Get new branch name'
+      - name: 'Parse PR'
+        id: parse_pr
         if: ${{ steps.release.outputs.pr }}
         run: |
           PR="$(echo "${{ steps.release.outputs.pr }}")"
           HEAD_BRANCH_NAME=$(echo "PR" | jq -r '.headBranchName')
-          echo "CHECKOUT_BRANCH=$HEAD_BRANCH_NAME" >> "$GITHUB_OUTPUT"
+          echo "branch_to_checkout=$HEAD_BRANCH_NAME" >> "$GITHUB_OUTPUT"
           echo $GITHUB_OUTPUT
 
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.pr }}
+        with:
+          ref: ${{ steps.parse_pr.outputs.branch_to_checkout }}
 
       - name: 'Setup jq'
         if: ${{ steps.release.outputs.pr }}
