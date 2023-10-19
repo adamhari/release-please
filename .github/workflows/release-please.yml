@@ -24,8 +24,7 @@ jobs:
         id: parse_pr
         if: ${{ steps.release.outputs.pr }}
         run: |
-          json='${{ steps.release.outputs.pr }}'
-          headBranchName=$(echo "$json" | jq -r '.headBranchName')
+          headBranchName=$(echo "${{ steps.release.outputs.pr }}" | jq -r '.headBranchName')
           echo "branch_to_checkout=$headBranchName" >> "$GITHUB_OUTPUT"
 
       - uses: actions/checkout@v2
