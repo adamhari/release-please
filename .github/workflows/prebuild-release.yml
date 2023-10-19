@@ -35,6 +35,6 @@ jobs:
           git commit -m "chore: increment buildNumber and prebuild"
 
       - name: Push changes
-        uses: ad-m/github-push-action@v0.6
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_ACCESS_TOKEN }}
