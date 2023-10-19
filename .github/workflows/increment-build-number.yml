@@ -1,0 +1,49 @@
+on:
+  create:
+    branches:
+      - 'release-please*' # This uses a wildcard to match branch names that start with 'release-please'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: increment-build-number
+
+jobs:
+  increment-build-number:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
+
+      - name: 'Setup jq'
+        uses: dcarbone/install-jq-action@v2.0.2
+        with:
+          version: '1.7'
+
+      - name: Update Build Number
+        run: |
+          # Increment the buildNumber property in package.json
+          jq '.buildNumber += 1' package.json > package.json.tmp
+          mv package.json.tmp package.json
+
+      - name: Install NPM dependencies
+        run: npm ci
+
+      - name: Prebuild
+        run: npx expo prebuild --no-install
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add --all
+          git commit -m "chore: increment buildNumber and prebuild"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GH_ACCESS_TOKEN }}
+          branch: ${{ github.ref }}
+
