@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/adamhari/release-please/compare/v1.2.0...v1.3.0) (2023-10-19)
+
+
+### Features
+
+* **web:** add web metadata to app config ([aba99a5](https://github.com/adamhari/release-please/commit/aba99a58955849708add2af655901b368c7a5e7a))
+
 ## [1.2.0](https://github.com/adamhari/release-please/compare/v1.1.0...v1.2.0) (2023-10-19)
 
 
