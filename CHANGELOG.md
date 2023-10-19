@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/adamhari/release-please/compare/v1.1.0...v1.2.0) (2023-10-19)
+
+
+### Features
+
+* **App:** invert colors ([8000794](https://github.com/adamhari/release-please/commit/8000794e762c1bfe5c2900c3273c0e2e5fbb2c07))
+
 ## [1.1.0](https://github.com/adamhari/release-please/compare/v1.0.0...v1.1.0) (2023-10-19)
 
 
