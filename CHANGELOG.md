@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/adamhari/release-please/compare/v1.0.0...v1.1.0) (2023-10-19)
+
+
+### Features
+
+* **App:** replace copy ([33f4f52](https://github.com/adamhari/release-please/commit/33f4f525515b53e228a32f913c78ef57d78d8902))
+* web support ([1c4bb96](https://github.com/adamhari/release-please/commit/1c4bb960ffe0759fbc056d9399a0f0a8ff434fb0))
+
 ## 1.0.0 (2023-10-19)
 
 
