@@ -16,7 +16,7 @@ jobs:
           ref: ${{ github.event.ref }}
 
       - name: 'Setup jq'
-        uses: dcarbone/install-jq-action@v2
+        uses: dcarbone/install-jq-action@v2.0.2
         with:
           version: '1.7'
 
