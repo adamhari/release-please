@@ -25,12 +25,12 @@ jobs:
         if: ${{ steps.release.outputs.pr }}
         run: |
           headBranchName=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.headBranchName')
-          echo "branch_to_checkout=$headBranchName" >> "$GITHUB_OUTPUT"
+          echo "release_please_branch=$headBranchName" >> "$GITHUB_OUTPUT"
 
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.pr }}
         with:
-          ref: ${{ steps.parse_pr.outputs.branch_to_checkout }}
+          ref: ${{ steps.parse_pr.outputs.release_please_branch }}
 
       - name: 'Setup jq'
         if: ${{ steps.release.outputs.pr }}
@@ -66,3 +66,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_ACCESS_TOKEN }}
+          branch: ${{ steps.parse_pr.outputs.release_please_branch }}
