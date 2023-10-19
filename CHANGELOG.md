@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/adamhari/release-please/compare/v1.3.4...v1.4.0) (2023-10-19)
+
+
+### Features
+
+* **App:** make it red! ([71d8fce](https://github.com/adamhari/release-please/commit/71d8fce0ba618bfae15521e72db7fa57ff47baa0))
+
 ## [1.3.4](https://github.com/adamhari/release-please/compare/v1.3.3...v1.3.4) (2023-10-19)
 
 
