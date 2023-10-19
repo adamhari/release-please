@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/adamhari/release-please/compare/v1.4.0...v1.4.1) (2023-10-19)
+
+
+### Bug Fixes
+
+* **ci:** run on macos-latest ([b18ab7d](https://github.com/adamhari/release-please/commit/b18ab7dfc41437646689a76513864d230de93854))
+
 ## [1.4.0](https://github.com/adamhari/release-please/compare/v1.3.4...v1.4.0) (2023-10-19)
 
 
