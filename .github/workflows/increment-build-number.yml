@@ -1,5 +1,5 @@
 on:
-  push:
+  create:
     branches:
       - 'release-please*' # This uses a wildcard to match branch names that start with 'release-please'
 
@@ -11,7 +11,7 @@ name: increment-build-number
 
 jobs:
   increment-build-number:
-    if: github.event.created
+    if: ${{ !contains(github.ref, 'refs/tags/') }}
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
