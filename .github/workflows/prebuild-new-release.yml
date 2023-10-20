@@ -37,8 +37,6 @@ jobs:
           sed -i'.bak' -e "s/versionCode $oldBuildNumber/versionCode $newBuildNumber/" android/app/build.gradle
           /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $buildNumber" ios/releaseplease/Info.plist
 
-          rm android/app/.bak
-
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
