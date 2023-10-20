@@ -27,7 +27,7 @@ jobs:
         id: build_number
         run: |
           version=$(jq '.version' package.json)
-          sed -i'' -e 's/versionName \".*\"/versionName \"$version\"/' android/app/build.gradle
+          sed -i'' -e 's/versionName \".*\"/versionName $version/' android/app/build.gradle
           /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $version" ios/releaseplease/Info.plist
           
           oldBuildNumber=$(jq '.buildNumber' package.json)
