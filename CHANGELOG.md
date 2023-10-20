@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/adamhari/release-please/compare/v1.5.0...v1.6.0) (2023-10-20)
+
+
+### Features
+
+* **App:** make it purple! ([84edc32](https://github.com/adamhari/release-please/commit/84edc32cf8c4e1b17d739185aafb29a8259c965f))
+
 ## [1.5.0](https://github.com/adamhari/release-please/compare/v1.4.2...v1.5.0) (2023-10-19)
 
 
