@@ -35,7 +35,7 @@ jobs:
           mv package.json.tmp package.json
           newBuildNumber=$(jq '.buildNumber' package.json)
           sed -i'.bak' -e "s/versionCode $oldBuildNumber/versionCode $newBuildNumber/" android/app/build.gradle && rm android/app/build.gradle.bak
-          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion newBuildNumber" ios/releaseplease/Info.plist
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $newBuildNumber" ios/releaseplease/Info.plist
 
       - name: Commit changes
         run: |
