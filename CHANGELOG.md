@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.8.0](https://github.com/adamhari/release-please/compare/v1.7.0...v1.8.0) (2023-10-20)
+
+
+### Features
+
+* **App:** make it yellow! ([3b8459d](https://github.com/adamhari/release-please/commit/3b8459ddf967402c9ba1bea6230b6e30d0ed145d))
+
+
+### Bug Fixes
+
+* **ci:** .bak path ([20ced98](https://github.com/adamhari/release-please/commit/20ced988b16e187875dcf73e2850688dbcc2907e))
+* **ci:** correct CFBundleVersion variable ([30fe735](https://github.com/adamhari/release-please/commit/30fe735a6a3471e60f07cc7775f27747df47840c))
+* **ci:** declare and remove sed .bak ([135bf07](https://github.com/adamhari/release-please/commit/135bf0748d9bd813b015743f2e7d8e888177990a))
+* **ci:** remove .bak rm ([74a1102](https://github.com/adamhari/release-please/commit/74a1102370a09dd1860620d7d19b95453e5cba84))
+* **ci:** replace .bak rm ([b7d24ad](https://github.com/adamhari/release-please/commit/b7d24adfe8698b236d790db8ffd7fe20ed10eb80))
+* remove duplicated build.gradle-e ([af284c4](https://github.com/adamhari/release-please/commit/af284c4a8b71480867d1008a97e909e286281e2c))
+
 ## [1.7.0](https://github.com/adamhari/release-please/compare/v1.6.0...v1.7.0) (2023-10-20)
 
 
