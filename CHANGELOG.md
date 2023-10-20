@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.7.0](https://github.com/adamhari/release-please/compare/v1.6.0...v1.7.0) (2023-10-20)
+
+
+### Features
+
+* **App:** make it orange! ([5c1bb1e](https://github.com/adamhari/release-please/commit/5c1bb1e21c6b2dc7e50759602e4a1c27c47d54a8))
+
+
+### Bug Fixes
+
+* **ci:** sed syntax ([8d82970](https://github.com/adamhari/release-please/commit/8d82970fb95cddaa042d8b5c49358fc60ab198a4))
+* **ci:** sed syntax ([fe792ed](https://github.com/adamhari/release-please/commit/fe792ed22bb5a7fed80aae31f3390dcf253233a5))
+
 ## [1.6.0](https://github.com/adamhari/release-please/compare/v1.5.0...v1.6.0) (2023-10-20)
 
 
