@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/adamhari/release-please/compare/v1.7.0...v1.8.0) (2023-10-20)
+
+
+### Features
+
+* **App:** make it yellow! ([3b8459d](https://github.com/adamhari/release-please/commit/3b8459ddf967402c9ba1bea6230b6e30d0ed145d))
+
 ## [1.7.0](https://github.com/adamhari/release-please/compare/v1.6.0...v1.7.0) (2023-10-20)
 
 
