@@ -11,6 +11,7 @@ name: prebuild-new-release
 
 jobs:
   prebuild-new-release:
+    # don't run when a release branch is merged
     if: ${{ !contains(github.ref, 'refs/tags/') }}
     runs-on: macos-latest
     steps:
@@ -26,16 +27,17 @@ jobs:
       - name: Increment build number and set native versions
         id: build_number
         run: |
-          version=$(jq '.version' package.json)
-          sed -i'.bak' -e "s/versionName \".*\"/versionName $version/" android/app/build.gradle && rm android/app/build.gradle.bak
-          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $version" ios/releaseplease/Info.plist
-          
           oldBuildNumber=$(jq '.buildNumber' package.json)
           jq '.buildNumber += 1' package.json > package.json.tmp
           mv package.json.tmp package.json
+          
           newBuildNumber=$(jq '.buildNumber' package.json)
           sed -i'.bak' -e "s/versionCode $oldBuildNumber/versionCode $newBuildNumber/" android/app/build.gradle && rm android/app/build.gradle.bak
           /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $newBuildNumber" ios/releaseplease/Info.plist
+          
+          version=$(jq '.version' package.json)
+          sed -i'.bak' -e "s/versionName \".*\"/versionName $version/" android/app/build.gradle && rm android/app/build.gradle.bak
+          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $version" ios/releaseplease/Info.plist
 
       - name: Commit changes
         run: |
