@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://github.com/adamhari/release-please/compare/1.14.1...1.15.0) (2024-02-22)
+
+
+### Features
+
+* **App:** make it blue! ([1526420](https://github.com/adamhari/release-please/commit/1526420b615654fed6ca780a88c49fff8f657eb1))
+
 ## [1.14.1](https://github.com/adamhari/release-please/compare/1.14.0...1.14.1) (2024-02-22)
 
 
