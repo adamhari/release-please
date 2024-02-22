@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/adamhari/release-please/compare/1.15.0...1.16.0) (2024-02-22)
+
+
+### Features
+
+* **App:** make it black! ([048c3fc](https://github.com/adamhari/release-please/commit/048c3fc0bdf9f97b32bf0e6283d9baf16f0e3c72))
+
 ## [1.15.0](https://github.com/adamhari/release-please/compare/1.14.1...1.15.0) (2024-02-22)
 
 
