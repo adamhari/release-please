@@ -8,7 +8,7 @@ export default function App() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "yellow",
+        backgroundColor: "gold",
       }}
     >
       <Text style={{ color: "black" }}>Release Please!</Text>
