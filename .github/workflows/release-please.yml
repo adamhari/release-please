@@ -18,4 +18,4 @@ jobs:
         id: release
         with:
           token: ${{ secrets.GHA_ACCESS_TOKEN }}
-          target-branch: ${{ github.ref }}
+          target-branch: ${{ github.ref_name }}
