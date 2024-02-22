@@ -2,7 +2,7 @@
   "name": "release-please",
   "bundleIdentifier": "com.adamhari.releaseplease",
   "version": "1.14.1",
-  "buildNumber": 15,
+  "buildNumber": 16,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
