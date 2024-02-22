@@ -7,6 +7,13 @@
 
 * **App:** make text turquoise! ([fc559f8](https://github.com/adamhari/release-please/commit/fc559f827a087a8e067fcdf700eddb2c2c88e2b6))
 
+## [1.18.0](https://github.com/adamhari/release-please/compare/1.17.0...1.18.0) (2024-02-22)
+
+
+### Features
+
+* **App:** make it gray! ([a0ffcee](https://github.com/adamhari/release-please/commit/a0ffceed669a155f85690cbd429433d36b726a04))
+
 ## [1.17.0](https://github.com/adamhari/release-please/compare/1.16.0...1.17.0) (2024-02-22)
 
 
