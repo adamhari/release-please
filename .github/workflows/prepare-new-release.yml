@@ -1,0 +1,42 @@
+on:
+  pull_request:
+    types:
+      - closed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: prepare-new-release
+
+jobs:
+  prepare-new-release:
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'release-please')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: 'Setup jq'
+        uses: dcarbone/install-jq-action@v2.0.2
+        with:
+          version: '1.7'
+
+      - name: Increment build number
+        id: build_number
+        run: |
+          oldBuildNumber=$(jq '.buildNumber' package.json)
+          jq '.buildNumber += 1' package.json > package.json.tmp
+          mv package.json.tmp package.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add --all
+          git commit -m "chore: increment build number"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GHA_ACCESS_TOKEN }}
+          branch: ${{ github.ref }}
