@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/adamhari/release-please/compare/1.10.0...1.11.0) (2024-02-22)
+
+
+### Features
+
+* **App:** make it gold! ([b4ea703](https://github.com/adamhari/release-please/commit/b4ea7034b44fc88bdb96cbd0e79d939651aece08))
+
 ## [1.10.0](https://github.com/adamhari/release-please/compare/1.9.0...1.10.0) (2024-02-22)
 
 
