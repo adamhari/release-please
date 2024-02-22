@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/adamhari/release-please/compare/1.13.0...1.14.0) (2024-02-22)
+
+
+### Features
+
+* **App:** make text yellow! ([6f2a9bf](https://github.com/adamhari/release-please/commit/6f2a9bfd28772d77665409245fb7b68b6db760ea))
+
 ## [1.13.0](https://github.com/adamhari/release-please/compare/1.12.0...1.13.0) (2024-02-22)
 
 
