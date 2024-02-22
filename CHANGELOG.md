@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.13.0](https://github.com/adamhari/release-please/compare/1.12.0...1.13.0) (2024-02-22)
+
+
+### Features
+
+* **App:** make it purple! ([951e2b0](https://github.com/adamhari/release-please/commit/951e2b003302418051bc755dc6a936977960a14c))
+* **build:** use ref_name for target-branch ([2e190b2](https://github.com/adamhari/release-please/commit/2e190b2587137dda8639eb3e1b4424638be17832))
+
 ## [1.12.0](https://github.com/adamhari/release-please/compare/v1.11.1...1.12.0) (2024-02-22)
 
 
