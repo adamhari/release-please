@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.1](https://github.com/adamhari/release-please/compare/1.14.0...1.14.1) (2024-02-22)
+
+
+### Bug Fixes
+
+* **build:** fix semver regex ([2dc05c8](https://github.com/adamhari/release-please/commit/2dc05c8f06f660d894840821f96764b99656c44d))
+
 ## [1.14.0](https://github.com/adamhari/release-please/compare/1.13.0...1.14.0) (2024-02-22)
 
 
