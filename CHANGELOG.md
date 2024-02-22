@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.1](https://github.com/adamhari/release-please/compare/1.13.0...1.13.1) (2024-02-22)
+
+
+### Bug Fixes
+
+* **App:** make it green! ([8853355](https://github.com/adamhari/release-please/commit/8853355d0580a46c9aeb653dbbc4ba39816da3cb))
+
 ## [1.13.0](https://github.com/adamhari/release-please/compare/1.12.0...1.13.0) (2024-02-22)
 
 
