@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.0](https://github.com/adamhari/release-please/compare/1.16.0...1.17.0) (2024-02-22)
+
+
+### Features
+
+* **build:** fix semver regex ([e1266e1](https://github.com/adamhari/release-please/commit/e1266e1f8eba971d278c16cf588e9c2e35b90bc3))
+
 ## [1.16.0](https://github.com/adamhari/release-please/compare/1.15.0...1.16.0) (2024-02-22)
 
 
