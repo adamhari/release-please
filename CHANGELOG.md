@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.9.0](https://github.com/adamhari/release-please/compare/v1.8.0...1.9.0) (2024-02-22)
+
+
+### Features
+
+* release-please v3 --&gt; v4 ([2c2527c](https://github.com/adamhari/release-please/commit/2c2527cbf99d6428f0ef097810790afd6b76c328))
+
+
+### Bug Fixes
+
+* **build:** fix expired token ([f055a45](https://github.com/adamhari/release-please/commit/f055a4529d465287facfbcbaca199b901f138bc2))
+* **build:** fix token var name ([cc481de](https://github.com/adamhari/release-please/commit/cc481ded8f076d30f75ca57fcbac308ee8e09fe1))
+
 ## [1.8.0](https://github.com/adamhari/release-please/compare/v1.7.0...v1.8.0) (2023-10-20)
 
 
