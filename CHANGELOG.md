@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/adamhari/release-please/compare/1.11.0...1.11.1) (2024-02-22)
+
+
+### Bug Fixes
+
+* **App:** fix text color ([#33](https://github.com/adamhari/release-please/issues/33)) ([7e7176c](https://github.com/adamhari/release-please/commit/7e7176c0ed535e656ea945a8e5887a2c139a0af7))
+
 ## [1.11.0](https://github.com/adamhari/release-please/compare/1.10.0...1.11.0) (2024-02-22)
 
 
