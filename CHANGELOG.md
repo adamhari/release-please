@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/adamhari/release-please/compare/1.9.0...1.10.0) (2024-02-22)
+
+
+### Features
+
+* **build:** trigger release-please in release branches ([9d29f2e](https://github.com/adamhari/release-please/commit/9d29f2e477027ca7f092641085126f45690f7feb))
+
 ## [1.9.0](https://github.com/adamhari/release-please/compare/v1.8.0...1.9.0) (2024-02-22)
 
 
