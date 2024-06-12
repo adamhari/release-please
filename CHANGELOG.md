@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.19.0](https://github.com/adamhari/release-please/compare/1.18.1...1.19.0) (2024-06-12)
+
+
+### Features
+
+* make it yellow! ([d1db43f](https://github.com/adamhari/release-please/commit/d1db43fe83c7982ed5b6acea3044a8dd90f5b7f0))
+
 ## [1.18.1](https://github.com/adamhari/release-please/compare/1.18.0...1.18.1) (2024-02-22)
 
 
