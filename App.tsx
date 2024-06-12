@@ -8,10 +8,10 @@ export default function App() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "gray",
+        backgroundColor: "black",
       }}
     >
-      <Text style={{ color: "green" }}>Release Please!</Text>
+      <Text style={{ color: "orange" }}>Release Please!</Text>
       <StatusBar style="auto" />
     </View>
   );
