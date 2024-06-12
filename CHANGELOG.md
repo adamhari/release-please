@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.0](https://github.com/adamhari/release-please/compare/1.22.0...1.23.0) (2024-06-12)
+
+
+### Features
+
+* make it orange! ([31afd02](https://github.com/adamhari/release-please/commit/31afd02a02dfad1fe58ebfe7ec307b08e2dbd397))
+
 ## [1.22.0](https://github.com/adamhari/release-please/compare/1.21.0...1.22.0) (2024-06-12)
 
 
