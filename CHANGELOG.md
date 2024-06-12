@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.1](https://github.com/adamhari/release-please/compare/1.23.0...1.23.1) (2024-06-12)
+
+
+### Bug Fixes
+
+* fix colors in prod! ([8a1c732](https://github.com/adamhari/release-please/commit/8a1c732921a28568304b0fb84e055cfb7752e900))
+
 ## [1.23.0](https://github.com/adamhari/release-please/compare/1.22.0...1.23.0) (2024-06-12)
 
 
