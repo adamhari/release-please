@@ -11,7 +11,7 @@ export default function App() {
         backgroundColor: "gray",
       }}
     >
-      <Text style={{ color: "red" }}>Release Please!</Text>
+      <Text style={{ color: "orange" }}>Release Please!</Text>
       <StatusBar style="auto" />
     </View>
   );
