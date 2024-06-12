@@ -24,6 +24,8 @@
 * **build:** trigger release-please in release branches ([9d29f2e](https://github.com/adamhari/release-please/commit/9d29f2e477027ca7f092641085126f45690f7feb))
 * **build:** use ref_name for target-branch ([2e190b2](https://github.com/adamhari/release-please/commit/2e190b2587137dda8639eb3e1b4424638be17832))
 * enforce conventional commits ([884ebd5](https://github.com/adamhari/release-please/commit/884ebd5bf7840f71209da0f748ace14dfb8834bf))
+* make it green! ([4a25ee1](https://github.com/adamhari/release-please/commit/4a25ee1f90d53b17f7274c2a833aae45ef0e7588))
+* make it yellow! ([d1db43f](https://github.com/adamhari/release-please/commit/d1db43fe83c7982ed5b6acea3044a8dd90f5b7f0))
 * release-please v3 --&gt; v4 ([2c2527c](https://github.com/adamhari/release-please/commit/2c2527cbf99d6428f0ef097810790afd6b76c328))
 * web support ([1c4bb96](https://github.com/adamhari/release-please/commit/1c4bb960ffe0759fbc056d9399a0f0a8ff434fb0))
 * **web:** add web metadata to app config ([aba99a5](https://github.com/adamhari/release-please/commit/aba99a58955849708add2af655901b368c7a5e7a))
