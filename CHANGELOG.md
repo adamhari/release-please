@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.0](https://github.com/adamhari/release-please/compare/1.21.0...1.22.0) (2024-06-12)
+
+
+### Features
+
+* make it red! ([950988e](https://github.com/adamhari/release-please/commit/950988ee927f7fa7369168f28b6bb833cfc588ef))
+
 ## [1.21.0](https://github.com/adamhari/release-please/compare/1.20.0...1.21.0) (2024-06-12)
 
 
