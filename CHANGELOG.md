@@ -5,6 +5,13 @@
 
 ### Features
 
+* release ([798f57a](https://github.com/adamhari/release-please/commit/798f57ad0507d6655dd74239307ff89faa2d57ae))
+
+## [1.24.0](https://github.com/adamhari/release-please/compare/1.23.1...1.24.0) (2024-06-12)
+
+
+### Features
+
 * make it white! ([e2bb078](https://github.com/adamhari/release-please/commit/e2bb078131fbc7166541ebe09b1da558ba381821))
 
 ## [1.23.1](https://github.com/adamhari/release-please/compare/1.23.0...1.23.1) (2024-06-12)
