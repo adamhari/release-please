@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.34.1](https://github.com/adamhari/release-please/compare/1.34.0...1.34.1) (2024-06-18)
+
+
+### Bug Fixes
+
+* make text white! ([cd747d8](https://github.com/adamhari/release-please/commit/cd747d8c129d868f6f9b273163585cad1bf69ca2))
+
 ## [1.34.0](https://github.com/adamhari/release-please/compare/1.33.0...1.34.0) (2024-06-18)
 
 
