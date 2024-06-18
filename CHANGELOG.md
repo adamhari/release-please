@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.0](https://github.com/adamhari/release-please/compare/1.27.0...1.28.0) (2024-06-18)
+
+
+### Features
+
+* make it green! ([67bf6c6](https://github.com/adamhari/release-please/commit/67bf6c64518de9301bbc0a92a9ff126d59d8d79b))
+
 ## [1.27.0](https://github.com/adamhari/release-please/compare/1.26.0...1.27.0) (2024-06-18)
 
 
