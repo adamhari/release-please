@@ -1,6 +1,7 @@
 {
   "include-component-in-tag": false,
   "include-v-in-tag": false,
+  "last-release-sha": "069aa47a07a8d01f05e75045856383eb821e4729",
   "packages": {
     ".": {}
   }

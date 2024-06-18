@@ -20,4 +20,3 @@ jobs:
         with:
           token: ${{ secrets.GHA_ACCESS_TOKEN }}
           target-branch: ${{ github.ref_name }}
-          last-release-sha: 069aa47a07a8d01f05e75045856383eb821e4729
