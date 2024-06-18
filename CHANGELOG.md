@@ -6,7 +6,6 @@
 ### Features
 
 * make it pink! ([48eb978](https://github.com/adamhari/release-please/commit/48eb978b9cf70d4b12830327f475e736f2b15f6b))
-
 ## [1.29.0](https://github.com/adamhari/release-please/compare/1.28.0...1.29.0) (2024-06-18)
 
 
@@ -27,7 +26,6 @@
 ### Features
 
 * make it yellow! ([ef2cbd4](https://github.com/adamhari/release-please/commit/ef2cbd4a51448af802c3e046eb23c78f3900744d))
-
 ## [1.26.0](https://github.com/adamhari/release-please/compare/1.25.0...1.26.0) (2024-06-18)
 
 
