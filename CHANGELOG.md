@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.34.0](https://github.com/adamhari/release-please/compare/1.33.0...1.34.0) (2024-06-18)
+
+
+### Features
+
+* make it red! ([351feca](https://github.com/adamhari/release-please/commit/351feca556acc8810b6b4a2b4a1dc61e1e6e0688))
+
 ## [1.33.0](https://github.com/adamhari/release-please/compare/1.32.0...1.33.0) (2024-06-18)
 
 
