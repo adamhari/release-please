@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.30.0](https://github.com/adamhari/release-please/compare/1.29.0...1.30.0) (2024-06-18)
+
+
+### Features
+
+* make it pink! ([48eb978](https://github.com/adamhari/release-please/commit/48eb978b9cf70d4b12830327f475e736f2b15f6b))
+
 ## [1.29.0](https://github.com/adamhari/release-please/compare/1.28.0...1.29.0) (2024-06-18)
 
 
