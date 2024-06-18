@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.33.0](https://github.com/adamhari/release-please/compare/1.32.0...1.33.0) (2024-06-18)
+
+
+### Features
+
+* make it black! ([270b582](https://github.com/adamhari/release-please/commit/270b582f178ea5bc67a6431442db4d54ff5439cc))
+
 ## [1.32.0](https://github.com/adamhari/release-please/compare/1.31.0...1.32.0) (2024-06-18)
 
 
