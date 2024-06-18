@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.34.0](https://github.com/adamhari/release-please/compare/1.33.0...1.34.0) (2024-06-18)
+
+
+### Features
+
+* make it white! ([d55f75e](https://github.com/adamhari/release-please/commit/d55f75eea859e3505134d83c2a7b2505f1f1a398))
+
 ## [1.33.0](https://github.com/adamhari/release-please/compare/1.32.0...1.33.0) (2024-06-18)
 
 
