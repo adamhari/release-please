@@ -7,6 +7,13 @@
 
 * make it red! ([351feca](https://github.com/adamhari/release-please/commit/351feca556acc8810b6b4a2b4a1dc61e1e6e0688))
 
+## [1.33.1](https://github.com/adamhari/release-please/compare/1.33.0...1.33.1) (2024-06-18)
+
+
+### Bug Fixes
+
+* make text white! ([cd747d8](https://github.com/adamhari/release-please/commit/cd747d8c129d868f6f9b273163585cad1bf69ca2))
+
 ## [1.33.0](https://github.com/adamhari/release-please/compare/1.32.0...1.33.0) (2024-06-18)
 
 
