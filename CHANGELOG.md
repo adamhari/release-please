@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.26.0](https://github.com/adamhari/release-please/compare/1.25.0...1.26.0) (2024-06-18)
+
+
+### Features
+
+* make it blue! ([696e0bb](https://github.com/adamhari/release-please/commit/696e0bb0a9cfa8c5e56f61cb582ca3ddb0f12b6c))
+
 ## [1.25.0](https://github.com/adamhari/release-please/compare/1.24.0...1.25.0) (2024-06-12)
 
 
