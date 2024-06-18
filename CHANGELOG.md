@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.29.0](https://github.com/adamhari/release-please/compare/1.28.0...1.29.0) (2024-06-18)
+
+
+### Features
+
+* make it purple! ([ff44fc1](https://github.com/adamhari/release-please/commit/ff44fc1178f3a1507792b7eea1cf172fabdc0fda))
+
 ## [1.28.0](https://github.com/adamhari/release-please/compare/1.27.0...1.28.0) (2024-06-18)
 
 
