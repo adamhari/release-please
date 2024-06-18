@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.31.0](https://github.com/adamhari/release-please/compare/1.30.0...1.31.0) (2024-06-18)
+
+
+### Features
+
+* make it teal! ([033a4e1](https://github.com/adamhari/release-please/commit/033a4e16b27c796d4b08bab9eaefa964315fbaaa))
+
 ## [1.30.0](https://github.com/adamhari/release-please/compare/1.29.0...1.30.0) (2024-06-18)
 
 
